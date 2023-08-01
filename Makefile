@@ -1990,3 +1990,4 @@ do_pc_lint_all : $(vmlinux-all) FORCE
 	@:
 
 pc_lint_all : do_pc_lint_all
+
