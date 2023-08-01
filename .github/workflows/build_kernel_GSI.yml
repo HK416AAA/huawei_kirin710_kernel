@@ -1,4 +1,4 @@
-name: Build Huawei-Kirin970-EMUI9.1.0-KSU-Kernel-GSI
+name: Build Huawei-Kirin710-EMUI9.1.0-KSU-Kernel-GSI
 on:
   workflow_dispatch:
   schedule:
@@ -64,5 +64,5 @@ jobs:
     - name: Upload Ravel-KSU-Kernel-GSI
       uses: actions/upload-artifact@v3
       with:
-        name: Kirin970_Ravel_KSU_9.1.0-GSI-${{ steps.get_time.outputs.TIME }}
-        path: "Kirin970_Ravel_KSU_9.1.0*.img"
+        name: Kirin710_Ravel_KSU_9.1.0-GSI-${{ steps.get_time.outputs.TIME }}
+        path: "Kirin710_Ravel_KSU_9.1.0*.img"
