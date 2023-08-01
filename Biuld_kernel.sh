@@ -4,9 +4,7 @@ rm -r out
 
 echo " "
 echo "***Setting environment...***"
-# 交叉编译器路径
-#export PATH=$PATH:$(pwd)/toolchain/linux-x86_64/bin
-#export CROSS_COMPILE=aarch64-linux-android-
+#  https://github.com/HK416AAA/android_kernel_huawei_kirin970_EMUI9.1.0_KernelSU/tree/Github-Action/aarch64-linux-android-4.9# 交叉编译器路径
 
 export PATH=$PATH:/home/abdelhy/Desktop/P20_lite_Kernels/gcc-linaro-4.9.4-2017.01-x86_64_aarch64-elf/bin
 export CROSS_COMPILE=aarch64-elf-
